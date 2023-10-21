@@ -1,0 +1,64 @@
+/* Dynamically center content */
+.App {
+  text-align: center;
+}
+
+/* Glitter effect for the App-logo during uploading */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-glitter 2s linear infinite;
+}
+
+/* Apply the logo spin animation if prefers-reduced-motion is not set to reduce motion */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin 20s linear infinite;
+  }
+}
+
+/* Center the content and provide a dark background with a background image */
+.App-header {
+  background-color: #282c34; /* Dark background color */
+  background-image: url("your-image-url.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Style links with a blue color */
+.App-link {
+  color: #61dafb;
+}
+
+/* Glitter animation for the App-logo */
+@keyframes App-logo-glitter {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Spin animation for the App-logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
