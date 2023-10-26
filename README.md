@@ -23,8 +23,6 @@ To set up Minio locally on your system, you can follow these steps:
 1. Download and install Minio from the official website.
 2. Create a directory where you want to store your Minio data.
 3. Start Minio using the following command:
-![WhatsApp Image 2023-10-26 at 3 02 08 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/20dfa2ba-76da-42ad-95ba-fde1e5248a13)
-
    
    minio server --address <ip-address>:<port> --data-dir <data-directory>
    
