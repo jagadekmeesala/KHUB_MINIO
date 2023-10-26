@@ -23,6 +23,7 @@ To set up Minio locally on your system, you can follow these steps:
 1. Download and install Minio from the official website.
 2. Create a directory where you want to store your Minio data.
 3. Start Minio using the following command:
+![WhatsApp Image 2023-10-26 at 3 02 08 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/20dfa2ba-76da-42ad-95ba-fde1e5248a13)
 
    
    minio server --address <ip-address>:<port> --data-dir <data-directory>
@@ -84,3 +85,33 @@ If you want to remove a file from the bucket, you can use the following code. Th
 
 ### Delete a file from the bucket
 client.remove_object(bucket, 'my-file.txt')
+
+### File strecture
+
+![image](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/ebb9e8f2-8d93-450a-9a66-042639ca4f2b)
+
+### Frontend
+
+![frontend](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/7e00fac4-008e-46ec-adf0-578deab6daa9)
+
+### Backend
+
+![backend](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/d692caf4-5a7d-4576-a0e1-153df2688f1d)
+
+### Login to the Minio Server
+
+![WhatsApp Image 2023-10-26 at 3 02 08 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/d669e074-8303-4c56-b35e-c3d164c1442f)
+### Running the Project 
+
+![WhatsApp Image 2023-10-26 at 3 12 01 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/f2d32d96-9b47-4346-9546-ce88d1aa259a)
+
+### Output of the Project
+
+![WhatsApp Image 2023-10-26 at 3 07 33 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/19851094-6982-4883-915a-9d4cc10fd784)
+
+### After Uploading Image 
+
+![WhatsApp Image 2023-10-26 at 3 11 24 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/bc99f86a-84c0-4a4f-8e9e-6e232b1ea8bc)
+
+### Image Uploading in Minio 
+![WhatsApp Image 2023-10-26 at 3 07 55 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/e78d46b5-3531-4852-88f8-a712fec9b337)
