@@ -46,9 +46,9 @@ This guide will walk you through obtaining files from and storing files to your 
 
 There are two primary ways to interact with Minio from your application: using the Minio SDK or the Minio REST API.
 
-## Using the Minio SDK
+### Using the Minio SDK
 
-# Step 2: Create a Bucket
+## Step 2: Create a Bucket
 
 To organize your data, create a bucket within your Minio storage setup.
 
@@ -56,31 +56,31 @@ from minio import Minio
 
 client = Minio('localhost:9000', access_key='minioadmin', secret_key='minioadmin')
 
-# Specify the name of the bucket you want to create
+### Specify the name of the bucket you want to create
 bucket = 'my-bucket'
 
-# Create the bucket
+### Create the bucket
 client.make_bucket(bucket)
 
-# Step 3: Upload a File to the Bucket
+## Step 3: Upload a File to the Bucket
 
 Now, you can upload a file to the created bucket. For example, we'll upload a file named `my-file.txt`.
 
 
-# Upload a file to the bucket
+### Upload a file to the bucket
 client.put_object(bucket, 'my-file.txt', open('my-file.txt', 'rb'))
 
-### Step 4: Download a File from the Bucket
+## Step 4: Download a File from the Bucket
 
 To retrieve a file from the bucket, you can download it. This example downloads `my-file.txt` from the bucket.
 
-# Download a file from the bucket
+### Download a file from the bucket
 client.fget_object(bucket, 'my-file.txt', 'my-file.txt')
 
-# Step 5: Delete a File from the Bucket
+## Step 5: Delete a File from the Bucket
 
 If you want to remove a file from the bucket, you can use the following code. This deletes `my-file.txt` from the bucket.
 
 
-# Delete a file from the bucket
+### Delete a file from the bucket
 client.remove_object(bucket, 'my-file.txt')
