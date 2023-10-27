@@ -1,0 +1,79 @@
+.app-container {
+  background-color: #282c34;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-container h1 {
+  text-decoration: underline; /* Add underline to the heading */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.choose-file {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 1px solid #2e0fdd;
+  border-radius: 5px;
+  background-color: rgb(42, 34, 59);
+  cursor: pointer;
+}
+
+.uploaded-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(124, 123, 128);
+}
+
+.uploaded-image {
+  border: 1px solid #3498db;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(88, 87, 90);
+}
+
+.uploaded-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 8px 0;
+}
+
+.uploaded-image button {
+  margin-top: -5px;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 2px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+@keyframes uploaded-image-glitter {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
