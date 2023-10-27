@@ -88,12 +88,6 @@ client.remove_object(bucket, 'my-file.txt')
 
 ![image](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/ebb9e8f2-8d93-450a-9a66-042639ca4f2b)
 
-### Frontend
-
-
-### Backend
-
-
 ### Login to the Minio Server
 
 ![WhatsApp Image 2023-10-26 at 3 02 08 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/d669e074-8303-4c56-b35e-c3d164c1442f)
@@ -103,9 +97,13 @@ client.remove_object(bucket, 'my-file.txt')
 
 ### Output of the Project
 
+![WhatsApp Image 2023-10-27 at 22 49 50_a28305b1](https://github.com/jagadekmeesala/KHUB_MINIO/assets/85881386/f87fc08b-c8ff-4874-b6fc-7cfa7d1a40ff)
 
 
-### After Uploading Image 
+### After Uploading Image - Minio.
 
+![WhatsApp Image 2023-10-27 at 22 47 49_7cb228bc](https://github.com/jagadekmeesala/KHUB_MINIO/assets/85881386/87f0ab95-73f4-4bf0-a091-ec4fd6ea483a)
 
 ### Image Uploading in Minio 
+
+![WhatsApp Image 2023-10-27 at 22 48 27_c77ed096](https://github.com/jagadekmeesala/KHUB_MINIO/assets/85881386/ca3c96e7-4ace-4f12-bb0d-04445be78146)
