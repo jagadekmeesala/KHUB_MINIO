@@ -84,17 +84,15 @@ If you want to remove a file from the bucket, you can use the following code. Th
 ### Delete a file from the bucket
 client.remove_object(bucket, 'my-file.txt')
 
-### File strecture
+### File structure
 
 ![image](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/ebb9e8f2-8d93-450a-9a66-042639ca4f2b)
 
 ### Frontend
 
-![frontend](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/7e00fac4-008e-46ec-adf0-578deab6daa9)
 
 ### Backend
 
-![backend](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/d692caf4-5a7d-4576-a0e1-153df2688f1d)
 
 ### Login to the Minio Server
 
@@ -105,11 +103,9 @@ client.remove_object(bucket, 'my-file.txt')
 
 ### Output of the Project
 
-![WhatsApp Image 2023-10-26 at 3 07 33 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/19851094-6982-4883-915a-9d4cc10fd784)
+
 
 ### After Uploading Image 
 
-![WhatsApp Image 2023-10-26 at 3 11 24 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/bc99f86a-84c0-4a4f-8e9e-6e232b1ea8bc)
 
 ### Image Uploading in Minio 
-![WhatsApp Image 2023-10-26 at 3 07 55 PM](https://github.com/jagadekmeesala/KHUB_MINIO/assets/96018533/e78d46b5-3531-4852-88f8-a712fec9b337)
